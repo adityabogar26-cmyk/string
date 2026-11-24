@@ -22,6 +22,9 @@ def is_palindrome(s):
     cleaned = s.replace(" ", "").lower()
     return cleaned == cleaned[::-1]
 
+def count_words(s):
+    return len(s.split())
+
 
 # Main program
 print("===== STRING UTILITIES =====")
